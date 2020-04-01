@@ -1,0 +1,27 @@
+{
+  "name": "intership-entria",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "clear": "rimraf bin",
+    "build": "yarn clear && ./node_modules/.bin/babel --out-dir bin src"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^5.0.0",
+    "dotenv": "^8.2.0",
+    "ora": "^4.0.3",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.8"
+  }
+}
